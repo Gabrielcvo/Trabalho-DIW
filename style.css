@@ -1,0 +1,20 @@
+.card {
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+    .card {
+        width: 90%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer {
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+}
